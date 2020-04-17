@@ -8,14 +8,14 @@ html {
   font-size: 62.5%;
 } 
 
-#website-title{
+#website-title {
   margin: 1rem;
   font-size: 4.5rem;
   color: black;
   text-align: left;
 }
 
-.website-header nav a{
+.website-header nav a {
   margin: 1rem;
   padding: 1rem;
   border: .2rem solid black;
