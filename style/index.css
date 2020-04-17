@@ -166,22 +166,21 @@ footer a, footer p {
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
   #website-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
-    color:green;
   }
 
   #highlight-picture {
     width: 85%;
     margin: 6.5%;
-    height: 30rem;
+    height: 25rem;
   }
 
   .website-header nav a {
     margin: .5rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
   }
 
@@ -198,6 +197,7 @@ footer a, footer p {
   #introduction {
     margin-top: 1.5rem;
     font-size: 1.7rem;
+    text-align: center;
   }
   
   button {
@@ -208,14 +208,19 @@ footer a, footer p {
   
   .gallery img {
     border: .2rem solid black;
-    height: 20rem
+    height: 15rem
   }
   
   footer h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   
   .footer-content {
     font-size: 1.6rem;
   }
+
+  .footer-content button {
+  background-color: darkgrey;
+  font-size: 1.5rem;
+  } 
 }
