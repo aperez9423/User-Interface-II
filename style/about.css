@@ -1,0 +1,201 @@
+*{
+    background-color: whitesmoke;
+    font-family: "Oxygen", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  } 
+  
+  #website-title {
+    margin: 1rem;
+    font-size: 4.5rem;
+    color: black;
+    text-align: left;
+  }
+  
+  .website-header nav a {
+    margin: 1rem;
+    padding: 1rem;
+    border: .2rem solid black;
+    background-color: gray;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .website-header nav a:hover {
+    background: whitesmoke;
+  }
+  
+  header {
+    border-bottom: .2rem solid black;
+    padding: 2rem;
+    background-color: lightseagreen;
+  }
+  
+  header h1, header nav, header a {
+    background-color: lightseagreen;
+  }
+  
+  #highlight-picture {
+    border: .2rem solid black;
+    margin: 2rem;
+    float:left;
+  }
+  
+  #webpage-title {
+    margin-left: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    color: black;
+  }
+  
+  #introduction {
+    margin: 0 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  button {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: lightseagreen;
+    border: .2rem solid black;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  footer h3 {
+    font-size: 25px;
+    background-color:lightseagreen;
+  }
+  
+  footer a, footer p {
+    background-color:lightseagreen;
+  }
+  
+  .footer-content button {
+    background-color: darkgrey;
+  }
+  
+  .footer-content button:hover {
+    background-color: whitesmoke;
+  }
+
+  .footer-content {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    border-top: .2rem solid black;
+    background-color:lightseagreen;
+  }  
+
+  @media (max-width:800px) {
+    #website-title {
+      font-size: 4rem;
+      text-align: center;
+    }
+  
+    #highlight-picture {
+      width: 85%;
+      margin: 6.5%;
+      height: 30rem;
+    }
+  
+    .website-header nav a {
+      margin: .5rem;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    #webpage-title {
+      font-size: 2.5rem;
+      margin-top: 0;
+      text-align: center;
+    }
+    
+    #introduction {
+      margin-top: 1.5rem;
+      font-size: 1.7rem;
+    }
+    
+    button {
+      font-size: 1.7rem;
+      margin: 1rem 45%;
+      padding: 1rem;
+    }
+    
+    footer h3 {
+      font-size: 2.2rem;
+    }
+    
+    .footer-content {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width:500px) {
+    #website-title {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    #highlight-picture {
+      width: 85%;
+      margin: 6.5%;
+      height: 25rem;
+    }
+  
+    .website-header nav a {
+      margin: .5rem;
+      font-size: 2.2rem;
+      text-align: center;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    #webpage-title {
+      font-size: 2.5rem;
+      margin-top: 0;
+      text-align: center;
+    }
+    
+    #introduction {
+      margin-top: 1.5rem;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    
+    button {
+      font-size: 1.7rem;
+      margin: 1rem 45%;
+      padding: 1rem;
+    }
+    
+    footer h3 {
+      font-size: 2rem;
+    }
+    
+    .footer-content {
+      font-size: 1.6rem;
+    }
+  
+    .footer-content button {
+    background-color: darkgrey;
+    font-size: 1.5rem;
+    } 
+  }
